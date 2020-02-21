@@ -1,1 +1,19 @@
 // Navigation Styles here
+nav{
+    max-width:100%;
+    .flx(row, space-around, center);
+    @media @mobile{
+        .flx(column, space-around, center);
+    }
+    .links{
+           line-height: 1.5;
+           font-size: 1.6rem;
+           padding-bottom: 10px;
+           width:50%;
+        .flx( row, space-around, center);
+        a{
+        text-decoration: none;
+        color:black;;
+    }
+    }
+}
